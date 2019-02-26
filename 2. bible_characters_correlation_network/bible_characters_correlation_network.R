@@ -26,7 +26,7 @@ for(i in 1:28){
   
   matthew <- str_trim(gsub('\\(.*?\\)','',matthew))
   
-  matthew <- str_trim(gsub('\r|\t|\n|\\?뼹|\\?뼳|\\.|\\,|\\;|\\:|[A-z0-9]',' ',matthew) ) # 특수문자제거,영어,숫자제거
+  matthew <- str_trim(gsub('\r|\t|\n|\\▶|\\|\\.|\\,|\\;|\\:|[A-z0-9]',' ',matthew) ) # 특수문자제거,영어,숫자제거
   
   matthew <- str_trim(gsub('\'|\\|\"|\\?|\\!|\\\"','',matthew) ) 
   
